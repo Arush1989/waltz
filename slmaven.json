@@ -1,5 +1,5 @@
 {
-  "tokenFile": "${WORKSPACE}/sealights/sltoken.txt",
+  "token": "${SL_TOKEN}",
   "createBuildSessionId": true,
   "appName": "waltz-be",
   "branchName": "master",
@@ -8,8 +8,5 @@
   "includeResources": true,
   "executionType": "full",
   "testStage": "Unit Tests",
-  "sealightsJvmParams": {
-    "sl.featuresData.enableLineCoverage": "true"
-  },
   "failsafeArgLine": "@{sealightsArgLine} -Dsl.testStage=\"Integration Tests\""
 }

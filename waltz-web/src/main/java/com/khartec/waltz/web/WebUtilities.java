@@ -78,6 +78,7 @@ public class WebUtilities {
      * @see StringUtilities
      */
     public static String mkPath(String... segs) {
+        String testString = "This is a test string";
         return StringUtilities.mkPath(segs);
     }
 

@@ -80,6 +80,10 @@ public class WebUtilities {
     public static String mkPath(String... segs) {
         return StringUtilities.mkPath(segs);
     }
+    
+    public static String testMethod(String... segs) {
+        return StringUtilities.testMethod(segs)
+    }
 
 
     /**

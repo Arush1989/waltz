@@ -171,6 +171,14 @@ public class StringUtilities {
                 ? Optional.empty()
                 : Optional.of(str);
     }
+    
+    
+    public static char lastChar(String str, char dflt) {
+        int l = mkSafe(str).length();
+        return mkSafe(str).length() > 0
+                ? str.charAt(l-1)
+                : dflt;
+    }
 
 
     /**

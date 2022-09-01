@@ -81,7 +81,7 @@ public class WebUtilities {
         return StringUtilities.mkPath(segs);
     }
     
-    public static String testMethod(String... segs) {
+    public static String testMethod1(String... segs) {
         return StringUtilities.mkPath(segs);
     }
 
